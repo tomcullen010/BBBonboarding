@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Employee Setup" max_length="40" name="x_snc_bbb1_employee_setup" sizeclass="2" type="collection">
+        <element default="0" label="Associates Processed" max_length="40" name="associates_processed" read_only="true" type="integer"/>
+        <element label="Associate Type Consultant" max_length="40" name="associate_type_consultant" type="boolean"/>
+        <element default="true" label="Associate Type Employee" max_length="40" name="associate_type_employee" type="boolean"/>
+        <element choice="1" default="sys_user" dependent="user_table" dependent_on_field="user_table" label="Conditions" max_length="4000" name="conditions" type="conditions" use_dependent_field="true">
+            <choice>
+                <element label="BBB Users" sequence="10" value="sys_user"/>
+            </choice>
+        </element>
+        <element default="0" label="Consultants Processed" max_length="40" name="consultants_processed" read_only="true" type="integer"/>
+        <element label="Desktop Applications" max_length="4000" name="desktop_applications" reference="x_snc_bbb1_desktop_applications" type="glide_list"/>
+        <element label="Message Log" max_length="40" name="message_log" type="string"/>
+        <element choice="3" label="Paths" max_length="40" name="paths" type="choice">
+            <choice>
+                <element label="Path A" sequence="10" value="Path A"/>
+                <element label="Path B" sequence="20" value="Path B"/>
+                <element label="Path C" sequence="30" value="Path C"/>
+            </choice>
+        </element>
+        <element label="Path A" max_length="40" name="path_a" type="boolean"/>
+        <element label="Path B" max_length="40" name="path_b" type="boolean"/>
+        <element label="Path C" max_length="40" name="path_c" type="boolean"/>
+        <element label="Phone Software" max_length="4000" name="phone_software" reference="x_snc_bbb1_phone_software" type="glide_list"/>
+        <element label="Profile Type" max_length="4000" name="profile_type" reference="x_snc_bbb1_profile_type" type="glide_list"/>
+        <element choice="3" default="sys_user" label="User Table" max_length="40" name="user_table" type="choice">
+            <choice>
+                <element label="BBB employee" sequence="10" value="sys_user"/>
+            </choice>
+        </element>
+    </element>
+</database>

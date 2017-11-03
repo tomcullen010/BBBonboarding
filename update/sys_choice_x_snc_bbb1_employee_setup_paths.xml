@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="paths" table="x_snc_bbb1_employee_setup" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>paths</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Path A</label>
+            <language>en</language>
+            <name>x_snc_bbb1_employee_setup</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-28 20:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b2ad7281329c7008ac858a12244b034</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-28 20:58:46</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Path A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>paths</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Path B</label>
+            <language>en</language>
+            <name>x_snc_bbb1_employee_setup</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-28 20:58:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e04ad7281329c7008ac858a12244b035</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-28 20:59:00</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Path B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>paths</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Path C</label>
+            <language>en</language>
+            <name>x_snc_bbb1_employee_setup</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-28 20:59:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>905ad7281329c7008ac858a12244b03c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-28 20:59:19</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Path C</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>paths</element>
+            <name>x_snc_bbb1_employee_setup</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-28 20:58:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d04a97281329c7008ac858a12244b0f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>paths</sys_name>
+            <sys_package display_value="BBB1" source="x_snc_bbb1">98c6bc1813e987008ac858a12244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BBB1">98c6bc1813e987008ac858a12244b0f7</sys_scope>
+            <sys_update_name>sys_choice_x_snc_bbb1_employee_setup_paths</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-28 20:58:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

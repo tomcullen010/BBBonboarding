@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="conditions" table="x_snc_bbb1_employee_setup" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>conditions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BBB Users</label>
+            <language>en</language>
+            <name>x_snc_bbb1_employee_setup</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-28 16:11:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>037856a013a5c7008ac858a12244b0cc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-28 16:12:06</sys_updated_on>
+            <u_translation_log_id/>
+            <value>sys_user</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>conditions</element>
+            <name>x_snc_bbb1_employee_setup</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-28 15:32:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>689fc22013a5c7008ac858a12244b073</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>conditions</sys_name>
+            <sys_package display_value="BBB1" source="x_snc_bbb1">98c6bc1813e987008ac858a12244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BBB1">98c6bc1813e987008ac858a12244b0f7</sys_scope>
+            <sys_update_name>sys_choice_x_snc_bbb1_employee_setup_conditions</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-28 15:32:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

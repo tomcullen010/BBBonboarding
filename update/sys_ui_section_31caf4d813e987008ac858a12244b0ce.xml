@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="31caf4d813e987008ac858a12244b0ce" sys_domain="global" table="x_snc_bbb1_profile_type" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>profile</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-27 14:43:18</sys_created_on>
+            <sys_id>39caf4d813e987008ac858a12244b0d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bbb1_profile_type" sys_domain="global" view="Default view">31caf4d813e987008ac858a12244b0ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-27 14:43:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-27 14:51:01</sys_created_on>
+            <sys_id>328cb41c13e987008ac858a12244b00b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bbb1_profile_type" sys_domain="global" view="Default view">31caf4d813e987008ac858a12244b0ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-27 14:51:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-27 14:55:16</sys_created_on>
+            <sys_id>c18d7c1c13e987008ac858a12244b085</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bbb1_profile_type" sys_domain="global" view="Default view">31caf4d813e987008ac858a12244b0ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-27 14:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-27 14:59:13</sys_created_on>
+            <sys_id>be6e345c13e987008ac858a12244b03d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_bbb1_profile_type" sys_domain="global" view="Default view">31caf4d813e987008ac858a12244b0ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-27 14:59:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_bbb1_profile_type</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-27 14:43:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31caf4d813e987008ac858a12244b0ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_bbb1_profile_type</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BBB1" source="x_snc_bbb1">98c6bc1813e987008ac858a12244b0f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="BBB1">98c6bc1813e987008ac858a12244b0f7</sys_scope>
+            <sys_update_name>sys_ui_section_31caf4d813e987008ac858a12244b0ce</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-27 14:43:18</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

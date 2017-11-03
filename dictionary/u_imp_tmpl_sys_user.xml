@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl Sys User" max_length="40" name="u_imp_tmpl_sys_user" type="collection">
+        <element attributes="import_attribute_name=Active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="import_attribute_name=Company,edge_encryption_enabled=true" label="Company" max_length="32" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=Department,edge_encryption_enabled=true" label="Department" max_length="32" name="u_department" type="string"/>
+        <element attributes="import_attribute_name=First name,edge_encryption_enabled=true" label="First name" max_length="50" name="u_first_name" type="string"/>
+        <element attributes="import_attribute_name=Last name,edge_encryption_enabled=true" label="Last name" max_length="50" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=Title,edge_encryption_enabled=true" label="Title" max_length="60" name="u_title" type="string"/>
+        <element attributes="import_attribute_name=User ID,edge_encryption_enabled=true" label="User ID" max_length="100" name="u_user_id" type="string"/>
+    </element>
+</database>
